@@ -1,7 +1,29 @@
 .header {
-    background-color: cyan;
-    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/73/11/55/7311555b079d39dfd672b26e0d542a34.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 100px;
+  }
+  body{
+    background-image: url(https://hacktiv8.com/assets/img/ogdefault.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  .h1 {
     padding: 20px;
+  }
+  .column {
+    margin:auto;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 .nav {
     overflow: hidden;
